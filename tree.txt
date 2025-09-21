@@ -1,0 +1,24 @@
+.
+├── CMakeLists.txt
+├── CMakePresets.json
+├── output
+│   ├── cropped.jpg		*裁剪为1/4
+│   ├── draw.jpg		*绘制圆形、方框、文字、红色轮廓、红色bounding box
+│   ├── flood.jpg		*膨胀、腐蚀、漫水处理
+│   ├── gauss_blur.jpg		*高斯滤波
+│   ├── gray.jpg		*灰度化
+│   ├── hsv.jpg			*hsv
+│   ├── mean_blur.jpg		*均值滤波
+│   ├── output_task2.jpg	*装甲板识别
+│   ├── red_img.jpg		*红色区域的轮廓、bounding box
+│   ├── red_mask.jpg		*红色覆膜
+│   └── rotated.jpg		*旋转35度
+├── resources
+│   ├── test_image_2.png	*测试图像
+│   └── test_image.png		*robomaster测试图像
+├── src
+│   ├── main.cpp		*图像处理源代码
+│   └── task2.cpp		*装甲板处理源代码
+└── tree.txt
+
+3 directories, 18 files
