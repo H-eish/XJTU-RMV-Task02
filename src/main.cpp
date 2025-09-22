@@ -27,8 +27,8 @@ int main()
 
     // HSV方法提取红色区域 0/179
     cv::Mat mask1, mask2, red_mask;
-    cv::inRange(hsv, cv::Scalar(0, 70, 50), cv::Scalar(10, 255, 255), mask1);
-    cv::inRange(hsv, cv::Scalar(170, 70, 50), cv::Scalar(180, 255, 255), mask2);
+    cv::inRange(hsv, cv::Scalar(0, 0, 0), cv::Scalar(20, 255, 255), mask1);
+    cv::inRange(hsv, cv::Scalar(157, 0, 0), cv::Scalar(180, 255, 255), mask2);
     cv::bitwise_or(mask1, mask2, red_mask); 
 
     
